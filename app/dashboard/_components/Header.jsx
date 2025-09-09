@@ -15,7 +15,7 @@ export default function Header() {
 
   return (
     <div className='flex p-2 items-center justify-between bg-secondary shadow-sm'>
-      <Image src={'/logo.svg'} width={120} height={60} alt='logo'/>
+      <Image src={'/logo.svg'} width={60} height={30} alt='logo'/>
       <ul className=' hidden md:flex gap-6'>
         <li onClick={()=>Router.replace('/dashboard')} className={`hover: hover:font-bold transition-all cursor-pointer ${path === '/dashboard' ? 'font-bold' : ''}`}>Dashboard</li>
         <li className={`hover: hover:font-bold transition-all cursor-pointer ${path === '/forum' ? 'font-bold' : ''}`}>Question</li>
