@@ -8,15 +8,15 @@ export default function Home() {
     <div className="h-screen flex flex-col lg:flex-row bg-gray-50 overflow-hidden ">
       <div>
         <img
-          src="/Online-interview.jpg"
-          alt="page.jpg"
+          src="https://joinsuperset.com/blogs/wp-content/uploads/2023/07/Online-Interview.jpg"
+          alt="Online_Interview Page"
           className="w-full h-full object-cover "
         />
       </div>
 
       <div className="flex justify-center items-center h-screen ml-20">
         <Button
-          className={"hover:cursor-pointer hover:bg-blue-600"}
+          className={"hover:cursor-pointer hover:bg-blue-700"}
           onClick={() => router.replace("/dashboard")}
         >
           Start your Mock interview with Ai
