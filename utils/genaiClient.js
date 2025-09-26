@@ -16,7 +16,7 @@ export async function generateInterviewQuestions(jobPosition, jobExperience, job
 
   // Use models.generateContent based on available surface from @google/genai v1.16.0
   const result = await genAI.models.generateContent({
-    model: 'gemini-1.5-flash',
+    model: 'gemini-2.0-flash',
     contents: [{ role: 'user', parts: [{ text: prompt }] }],
   });
 
